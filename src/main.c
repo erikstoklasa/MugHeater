@@ -13,7 +13,7 @@
 #define B_COEFFICIENT 4050.0 // Beta coefficient (B)
 #define T_REF 298.15         // Reference temperature in Kelvin (25°C)
 
-#define T_DESIRED 40.0f // Desired temperature in Celsius
+#define T_DESIRED 60.0f // Desired temperature in Celsius
 
 volatile uint16_t is_enabled_heating = 0;
 volatile uint16_t has_reached_temp = 0;
